@@ -1,5 +1,6 @@
 export const quizzes = [
     {
+      id: 0,
       title: 'Basics of HTML',
       questions: [
         {
@@ -33,6 +34,7 @@ export const quizzes = [
       ],
     },
     {
+        id: 1,
       title: 'Basics of CSS',
       questions: [
         {
@@ -58,5 +60,38 @@ export const quizzes = [
         },
       ],
     },
+    {
+        id: 2,
+        title: 'We Love Disney',
+        questions: [
+          {
+            text: 'What\'s the name of the accident-prone ant in A Bug\'s Life?',
+            correctAnswer: "Flik",
+            incorrectAnswers: [
+              "John",
+              "Sid",
+              "Harley",
+            ],
+          },
+          {
+            text:
+              'Who was Snow White\'s enemy?',
+            correctAnswer: 'The Evil Queen',
+            incorrectAnswers: ['Maleficent', 'Scar', 'Cruella De Vil'],
+          },
+          {
+            text:
+              'Before joining Woody and the gang in Toy Story, where was Buzz Lightyear stationed?',
+            correctAnswer: 'Gamma Quadrant of Sector 4',
+            incorrectAnswers: ['Alpha Centauri', 'Cardiff', 'The Moon'],
+          },
+          {
+            text:
+              'In The Incredibles, where do the Parr family live?',
+            correctAnswer: 'Municiberg',
+            incorrectAnswers: ['Los Angeles', 'Seattle', 'New York'],
+          },
+        ],
+      },
   ];
   
